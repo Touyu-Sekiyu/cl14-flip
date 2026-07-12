@@ -55,6 +55,21 @@
  top: 260px;
 }
 
+#foo3 {
+ left: 420px;
+ top: 230px;
+}
+
+#foo4 {
+ left: 410px;
+ top: 280px;
+}
+
+#foo5 {
+ left: 500px;
+ top: 260px;
+}
+
 #message {
  position: absolute;
  left: 20px;
