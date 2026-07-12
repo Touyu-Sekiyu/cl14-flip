@@ -1,0 +1,84 @@
+.stage {
+ position:relative;
+ width:100%;
+ height:500px;
+}
+
+.background {
+ position:absolute;
+ left: 0px;
+ top: 0px;
+ pointer-events: none;
+}
+
+.butterfly {
+ position:absolute;
+ width:100px;
+ height:auto;
+ transition: all 0.5s ease-out;
+}
+
+#bg0 {
+ left: 200px;
+ top: 300px;
+}
+
+#bg1 {
+ left: 300px;
+ top: 100px;
+}
+
+#bg2 {
+ left: 500px;
+ top: 300px;
+}
+
+.foo {
+ position:absolute;
+ width:20px;
+ height:auto;
+ transition: all 0.5s ease-out;
+}
+
+#foo0 {
+ left: 500px;
+ top: 260px;
+}
+
+#foo1 {
+ left: 400px;
+ top: 260px;
+}
+
+#foo2 {
+ left: 560px;
+ top: 260px;
+}
+
+#foo3 {
+ left: 420px;
+ top: 230px;
+}
+
+#foo4 {
+ left: 600px;
+ top: 270px;
+}
+
+#foo5 {
+ left: 750px;
+ top: 260px;
+}
+
+#message {
+ position: absolute;
+ left: 20px;
+ top: 30px;
+ width: 500px;
+ height:100px;
+ background-color: RGB(255,255,255,0.5);
+ color: red;
+ font-size: 15px;
+ padding: 15px;
+ pointer-events: none;
+}
